@@ -74,6 +74,11 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .topbar { display: flex; align-items: center; justify-content: space-between; gap: 20px; margin-bottom: 28px; }
 .hello h1 { font-size: 23px; font-weight: 800; letter-spacing: -.02em; margin: 0; }
 .hello p { font-size: 13px; color: var(--text-3); margin: 5px 0 0; }
+.datecard { display: flex; align-items: center; gap: 11px; flex-shrink: 0; background: var(--card); border: 1px solid var(--border); border-radius: 14px; padding: 9px 16px; }
+.datecard .dc-ico { color: var(--accent); }
+.dc-text { display: flex; flex-direction: column; line-height: 1.25; }
+.dc-ymd { font-size: 14.5px; font-weight: 800; color: var(--text); letter-spacing: -.01em; }
+.dc-wk { font-size: 12.5px; font-weight: 700; color: var(--accent-2); margin-top: 1px; }
 .topbar-right { display: flex; align-items: center; gap: 10px; }
 .searchbox { display: flex; align-items: center; gap: 9px; background: var(--card); border: 1px solid var(--border); border-radius: 999px; padding: 9px 15px; width: 260px; transition: border-color .15s, box-shadow .15s; }
 .searchbox:focus-within { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }

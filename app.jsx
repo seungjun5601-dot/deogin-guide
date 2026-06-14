@@ -18,6 +18,11 @@ function todayStr() {
   const wk = ["일", "월", "화", "수", "목", "금", "토"][d.getDay()];
   return `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}. ${wk}요일`;
 }
+function todayParts() {
+  const d = new Date();
+  const wk = ["일", "월", "화", "수", "목", "금", "토"][d.getDay()];
+  return { ymd: `${d.getFullYear()}. ${d.getMonth() + 1}. ${d.getDate()}.`, wk: `${wk}요일` };
+}
 
 /* ---------- 사이드바 ---------- */
 function Sidebar({ view, go }) {
@@ -73,7 +78,14 @@ function HomeView({ go, sysRef, guideRef }) {
       <div className="topbar">
         <div className="hello">
           <h1>안녕하세요, 선생님 👋</h1>
-          <p>{todayStr()} · 자주 쓰는 시스템과 가이드를 한곳에</p>
+          <p>자주 쓰는 시스템과 가이드를 한곳에</p>
+        </div>
+        <div className="datecard">
+          <Icon name="calendar" size={19} className="dc-ico" />
+          <div className="dc-text">
+            <div className="dc-ymd">{todayParts().ymd}</div>
+            <div className="dc-wk">{todayParts().wk}</div>
+          </div>
         </div>
       </div>
 
