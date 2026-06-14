@@ -12,7 +12,7 @@ window.SYSTEMS = [
   { id: "gijae",        icon: "doc",      name: "생기부 기재요령",        desc: "2026 학교생활기록부 기재요령 — 기재 금지사항 확인 필수", accent: "#db9a9a",
     url: "https://deogin-kwanjang.web.app/gijaeyoryeong.pdf" },
   { id: "subject",      icon: "search",   name: "권장과목 검색",          desc: "2028 권역별 대학별 권장과목 — 학과별 핵심·권장 과목 확인", accent: "#7fc4c4",
-    url: "https://deogin-kwanjang.web.app/gijaeyoryeong.pdf" },
+    url: "https://deogin-kwanjang.web.app/" },
   { id: "admission",    icon: "flag",     name: "2028 대입 전형시행계획",  desc: "대학별 전형 정보·변화 내용 확인", accent: "#8fb0e8",
     url: "https://seungjun5601-dot.github.io/2028-admission/" },
   { id: "courseselect", icon: "checklist", name: "과목선택 시스템",        desc: "현재 3학년 교육과정 과목선택 시스템", accent: "#b298df",
