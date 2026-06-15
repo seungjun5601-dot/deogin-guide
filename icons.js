@@ -10,6 +10,7 @@ window.ICONS = {
   calendar:  '<rect x="3.8" y="5" width="16.4" height="15.2" rx="2.2"/><path d="M3.8 9.4h16.4M8.3 3v4M15.7 3v4"/>',
   checklist: '<path d="M9.5 6.4h10M9.5 12h10M9.5 17.6h10"/><path d="M4 5.6 5.3 7 7.4 4.7M4 11.2l1.3 1.4 2.1-2.3M4 16.8l1.3 1.4 2.1-2.3"/>',
   flag:      '<path d="M5.5 21V4"/><path d="M5.5 4.5h11l-2.3 3.6 2.3 3.6h-11"/>',
+  mic:       '<rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5.6 11a6.4 6.4 0 0 0 12.8 0"/><path d="M12 17.4V21"/><path d="M8.4 21h7.2"/>',
   // 내비/UI
   home:      '<path d="M4 11 12 4l8 7"/><path d="M6 9.6V20h12V9.6"/><path d="M10 20v-5h4v5"/>',
   grid:      '<rect x="4" y="4" width="6.5" height="6.5" rx="1.4"/><rect x="13.5" y="4" width="6.5" height="6.5" rx="1.4"/><rect x="4" y="13.5" width="6.5" height="6.5" rx="1.4"/><rect x="13.5" y="13.5" width="6.5" height="6.5" rx="1.4"/>',

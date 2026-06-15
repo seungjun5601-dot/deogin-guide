@@ -17,6 +17,8 @@ window.SYSTEMS = [
     url: "https://seungjun5601-dot.github.io/2028-admission/" },
   { id: "courseselect", icon: "checklist", name: "과목선택 시스템",        desc: "현재 3학년 교육과정 과목선택 시스템", accent: "#b298df",
     url: "https://script.google.com/macros/s/AKfycbw7VqCOpeZL4-d-jrgsDIxW1uMuM-h7asXF5ZXLeNXmap6JcedWyJ8vLIl958YZEEZa/exec" },
+  { id: "interview",    icon: "mic",      name: "모의면접 프로그램",       desc: "실전처럼 준비하는 면접 — 유형별 예상 질문으로 모의면접 연습", accent: "#e09bb0",
+    url: "https://seungjun5601-dot.github.io/deogin-interview/" },
 ];
 
 // 가이드 — 카테고리 > 항목 > 상세(블록)
